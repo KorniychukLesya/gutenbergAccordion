@@ -15,5 +15,6 @@ This is a custom Gutenberg block.
 - SCSS
 - JavaScript
 
-s
+
+## Example:
 ![ScreenShot](./images/scrin.jpg)# gutenbergAccordion
