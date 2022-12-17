@@ -1,0 +1,37 @@
+{
+	"apiVersion": 2,
+	"name": "gutenaccordion/accordion-inner",
+	"version": "0.1.0",
+	"title": "Accordion-inner",
+	"category": "widgets",
+	"description": "",
+	"parent": ["gutenaccordion/accordion"],
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"count": {
+			"type": "string"	
+		},
+		"controlCount": {
+			"type": "boolean",	
+			"default": false	
+		},
+
+		"titleinner": {
+			"type": "string"			
+		},
+		"content": {
+			"type": "string"			
+		},
+		"toglTexst": {
+			"type": "boolean",	
+			"default": false		
+		}
+
+	},
+	"textdomain": "gutenaccordion",
+	"editorScript": "file:../../../../build/accordion-inner.js",
+	"editorStyle": "file:../../../../build/accordion-inner.css",
+	"style": "file:../../../../build/style-accordion-inner.css"
+}

@@ -1,0 +1,127 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./includes/block-editor/blocks/accordion-inner/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Inter";
+  src: url(fonts/Inter-Regular.e89cb199.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(fonts/Inter-Bold.88fa7ae3.ttf);
+  font-weight: bold;
+}
+.wp-block-create-block-example-plugin {
+  border: 1px dotted #f00;
+}
+
+.accordion-back {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 16px;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  margin-bottom: 3px;
+}
+@media (min-width: 768px) {
+  .accordion-back {
+    align-items: flex-start;
+    padding: 40px 32px;
+    gap: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .accordion-back {
+    align-items: flex-start;
+    padding: 52px 60px;
+    gap: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .accordion-back__content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .accordion-back__content {
+    gap: 52px;
+  }
+}
+.accordion-back__count {
+  margin: 0;
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: rgba(60, 60, 67, 0.5);
+  vertical-align: text-top;
+}
+@media (min-width: 1024px) {
+  .accordion-back__count {
+    font-size: 48px;
+    letter-spacing: 0.25px;
+  }
+}
+.accordion-back__count--eror {
+  position: relative;
+}
+.accordion-back__count--eror::after {
+  position: absolute;
+  content: "Error: Only numbers can be entered !!!";
+  display: block;
+  width: 300px;
+  color: #f00;
+  font-size: 14px;
+  top: 45px;
+}
+.accordion-back__title {
+  margin: 0;
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+}
+@media (min-width: 1024px) {
+  .accordion-back__title {
+    font-size: 32px;
+    margin-bottom: 34px;
+  }
+}
+.accordion-back__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgba(60, 60, 67, 0.85);
+  margin: 0 5px;
+}
+@media (min-width: 1024px) {
+  .accordion-back__text {
+    font-size: 20px;
+  }
+}
+.accordion-back__button {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMjQiIGZpbGw9IiNGM0Y1RjYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNSAxN0gyM1YyM0gxN1YyNUgyM1YzMUgyNVYyNUgzMVYyM0gyNVYxN1oiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=);
+  background-size: cover;
+  border: none;
+  border-radius: 50%;
+  margin: 5px;
+}
+@media (min-width: 768px) {
+  .accordion-back__button {
+    width: 48px;
+    height: 48px;
+  }
+}
+.accordion-back__button--acive {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMjQiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjkuNjU2OSAxOS43NTc0TDI4LjI0MjYgMTguMzQzMkwyNCAyMi41ODU5TDE5Ljc1NzQgMTguMzQzMkwxOC4zNDMxIDE5Ljc1NzRMMjIuNTg1OCAyNC4wMDAxTDE4LjM0MzEgMjguMjQyN0wxOS43NTc0IDI5LjY1NjlMMjQgMjUuNDE0M0wyOC4yNDI2IDI5LjY1NjlMMjkuNjU2OSAyOC4yNDI3TDI1LjQxNDIgMjQuMDAwMUwyOS42NTY5IDE5Ljc1NzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K);
+}
+
+/*# sourceMappingURL=accordion-inner.css.map*/

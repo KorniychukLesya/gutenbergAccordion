@@ -1,0 +1,143 @@
+@import "./mixins";
+@font-face {
+	font-family: 'Inter';
+	src: url(../../../../fonts/Inter-Regular.ttf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url(../../../../fonts/Inter-Bold.ttf);
+	font-weight: bold;
+	}
+
+.wp-block-create-block-example-plugin {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+.site-main .entry-content > .accordion-front {
+	margin: 3px 16px;
+	max-width: 95% !important;
+	box-sizing: border-box;
+}
+
+.accordion-front {
+	width: 100%;
+	display: flex;
+	justify-content: space-between ;
+	align-items: center;
+	padding: 32px 16px;
+	padding: 32px 16px;
+	font-family: 'Inter', sans-serif;
+	background-color: #fff;
+	margin-bottom: 3px;
+
+	@include onTable {
+		padding: 40px 32px;		
+		align-items: flex-start;
+		gap: 32px;
+	  }
+	
+	  @include onDesktop {
+		padding: 52px 60px;
+		align-items: flex-start;
+		gap: 52px;
+	  }
+
+	&__content {		
+
+		@include onTable {
+			display: flex;
+			justify-content: flex-start ;
+			align-items: flex-start;
+			gap: 32px;
+		}
+
+		@include onDesktop {			
+			gap: 52px;
+		}
+	}
+
+	&__count {		
+		margin: 0;
+		margin-bottom: 11px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+		color: rgba(60, 60, 67, 0.5);
+		vertical-align: text-top;
+
+		@include onDesktop {
+			font-size: 48px;
+			letter-spacing: 0.25px;
+		  }
+		}
+
+	&__title {
+		margin: 0;
+		margin-bottom: 26px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120%;
+        color: #000000;
+
+		@include onDesktop {
+			font-size: 32px;
+			margin-bottom: 34px;
+		  }
+	}
+    
+	&__text {
+		max-height: 0;
+	    overflow: hidden;
+	    transition: max-height 0.2s ease-out;
+	}
+
+	&__text-item {
+		margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+		color: rgba(60, 60, 67, 0.85);
+
+
+		@include onDesktop {
+			font-size: 20px;
+		}
+	}
+
+	&__button {
+		display: flex;
+		background-image: url(../../../../images/Button_+.svg);
+		background-size: cover;
+		background-position: center;
+		width: 32px;
+		height: 32px;
+		background-color: #fff !important;
+		border: none;
+	    border-radius: 50%;
+		transition: 0.4s;
+		padding: 0;
+
+		@include onTable {
+			width: 48px;
+		    height: 48px;
+		}
+	}
+
+	&__button:hover {
+		border: 2px solid #a9abb1;
+	} 
+
+	&__button:focus {
+		border: 2px solid #a9abb1;
+	}
+
+	&__button--acive {
+		background-image: url(../../../../images/Button_X.svg);
+	}
+}

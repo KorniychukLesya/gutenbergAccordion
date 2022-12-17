@@ -1,0 +1,1 @@
+{"version":3,"file":"accordion.css","mappings":";;;AAAA;EACI;EACH;AACD;;AAGA;EACC;AAAD,C","sources":["webpack://example-plugin/./includes/block-editor/blocks/accordion/editor.scss"],"sourcesContent":[".accordion-parent .wp-block {\n    max-width: 95% !important;\n\tbox-sizing: border-box;\n\t\n}\n\n.accordion-parent {\n\tlist-style: none;\n}\n\n"],"names":[],"sourceRoot":""}
